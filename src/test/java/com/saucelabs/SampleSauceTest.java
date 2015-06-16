@@ -180,7 +180,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("sopq-hotel-dest")).sendKeys("Las Vegas, NV");
         driver.findElement(By.id("hotel-btn-submit-sopq")).click();
       
-    }
+    } 
 
     /**
      * Closes the {@link WebDriver} session.
