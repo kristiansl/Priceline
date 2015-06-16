@@ -175,7 +175,13 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         Thread.sleep(7000);
         driver.findElement(By.xpath("//div[@class='xdeals-container']//a[.='Search Express Deals®']")).click();
         driver.findElement(By.id("sopq-hotel-checkout")).click();
-        driver.findElement(By.linkText("17")).click();
+
+     //   WebDriverWait wait = new WebDriverWait(driver, 10); // wait for a maximum of 10 seconds
+     //   WebElement searchTab = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("20")));
+     //   searchTab.click();
+
+        //driver.findElement(By.linkText("17")).click();
+        driver.findElement(By.linkText("20")).click();
         driver.findElement(By.id("sopq-hotel-dest")).click();
         driver.findElement(By.id("sopq-hotel-dest")).clear();
         driver.findElement(By.id("sopq-hotel-dest")).sendKeys("Las Vegas, NV");
