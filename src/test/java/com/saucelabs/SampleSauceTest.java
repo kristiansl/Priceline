@@ -172,7 +172,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     @Test
     public void loginTest() throws Exception {
         driver.get("http://priceline.com/");
-        Thread.sleep(5000);
+        Thread.sleep(7000);
         driver.findElement(By.xpath("//div[@class='xdeals-container']//a[.='Search Express Deals®']")).click();
         driver.findElement(By.id("sopq-hotel-checkout")).click();
         driver.findElement(By.linkText("17")).click();
@@ -181,7 +181,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("sopq-hotel-dest")).sendKeys("Las Vegas, NV");
         driver.findElement(By.id("hotel-btn-submit-sopq")).click();
     }
-
+ 
     /**
      * Closes the {@link WebDriver} session.
      *
