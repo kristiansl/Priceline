@@ -43,9 +43,10 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * supplied by environment variables or from an external file, use the no-arg {@link SauceOnDemandAuthentication} constructor.
      */
 
-    public String username = System.getenv("SAUCE_USER_NAME") != null ? System.getenv("SAUCE_USER_NAME") : System.getenv("SAUCE_USERNAME");
-    public String accesskey = System.getenv("SAUCE_API_KEY") != null ? System.getenv("SAUCE_API_KEY") : System.getenv("SAUCE_ACCESS_KEY");
-    public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication(username, accesskey);
+    //public String username = System.getenv("SAUCE_USER_NAME") != null ? System.getenv("SAUCE_USER_NAME") : System.getenv("SAUCE_USERNAME");
+    //public String accesskey = System.getenv("SAUCE_API_KEY") != null ? System.getenv("SAUCE_API_KEY") : System.getenv("SAUCE_ACCESS_KEY");
+    //public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication(username, accesskey);
+    public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication("kristianmeiersl", "69c9ea29-59c8-4b3a-9909-18b1b05343f6");
 
     //public String site_password = System.getenv("SAUCE_PASSWORD_WEBSITE")
     /**
@@ -118,7 +119,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows XP", "36", "firefox", "Windows 8 Firefox 36"});      
         browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
         browsers.add(new String[]{"OSX 10.10", "8", "safari", "Mac 10.10 Safari 8"});
-        browsers.add(new String[]{"OSX 10.10", "40", "chrome", "Mac 10.10 Chrome 40"});
+        browsers.add(new String[]{"OSX 10.10", "43", "chrome", "Mac 10.10 Chrome 40"});
         browsers.add(new String[]{"Windows 8.1", "beta", "chrome", "Windows 8.1 Chrome Beta"}); 
         browsers.add(new String[]{"Windows 7", "9", "internet explorer", "Windows 7 IE 9"});   
         browsers.add(new String[]{"Windows XP", "38", "firefox", "Windows XP Firefox 38"});   
@@ -170,7 +171,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      */
     @Test
     public void loginTest() throws Exception {
-        driver.get("http://priceline.com.com/");
+        driver.get("http://priceline.com/");
         Thread.sleep(5000);
         driver.findElement(By.xpath("//div[@class='xdeals-container']//a[.='Search Express Deals®']")).click();
         driver.findElement(By.id("sopq-hotel-checkout")).click();
@@ -179,7 +180,6 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("sopq-hotel-dest")).clear();
         driver.findElement(By.id("sopq-hotel-dest")).sendKeys("Las Vegas, NV");
         driver.findElement(By.id("hotel-btn-submit-sopq")).click();
-      
     } 
 
     /**
