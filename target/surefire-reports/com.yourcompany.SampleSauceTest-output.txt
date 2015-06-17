@@ -1,12 +1,10 @@
-SauceOnDemandSessionID=16e456ec3c344cfa909e8b52182f5c07 job-name=com.yourcompany.SampleSauceTest.loginTest[9]
-Job link: https://saucelabs.com/jobs/16e456ec3c344cfa909e8b52182f5c07?auth=4b4410f0257b06e3da73a86b888cef9c
-SauceOnDemandSessionID=93e3fd41fc3a4c4ea51119859064ced5 job-name=com.yourcompany.SampleSauceTest.loginTest[5]
-Job link: https://saucelabs.com/jobs/93e3fd41fc3a4c4ea51119859064ced5?auth=3cc1406cc85cdf9d1258f6c08d3f4791
-SauceOnDemandSessionID=d5b0ea9d7b7d43719a0cfc979c9f2294 job-name=com.yourcompany.SampleSauceTest.loginTest[4]
-Job link: https://saucelabs.com/jobs/d5b0ea9d7b7d43719a0cfc979c9f2294?auth=8ad0840f3dd3f66cbdd8ba64805e10ff
-SauceOnDemandSessionID=d5534b914eac451ebdbed998ea078ac4 job-name=com.yourcompany.SampleSauceTest.loginTest[3]
-Job link: https://saucelabs.com/jobs/d5534b914eac451ebdbed998ea078ac4?auth=69c6a1e2b9a43e6e65ea44dc65362db2
-SauceOnDemandSessionID=bf0325a1e17e496caed91f7dc6ed9d1d job-name=com.yourcompany.SampleSauceTest.loginTest[1]
-Job link: https://saucelabs.com/jobs/bf0325a1e17e496caed91f7dc6ed9d1d?auth=46fbf0a6868741dbcd75ddfb12e3d29d
-SauceOnDemandSessionID=8d3c1ce1cd574cd8aedb19a273d28980 job-name=com.yourcompany.SampleSauceTest.loginTest[8]
-Job link: https://saucelabs.com/jobs/8d3c1ce1cd574cd8aedb19a273d28980?auth=8e11145b5390e57e33a54a36925ae990
+SauceOnDemandSessionID=e46e10349b30425b975604ac6df60702 job-name=com.yourcompany.SampleSauceTest.loginTest[9]
+SauceOnDemandSessionID=eb4f5172328442a28ec1bd4f218dcb06 job-name=com.yourcompany.SampleSauceTest.loginTest[7]
+SauceOnDemandSessionID=62ddf7ed64314a50bcf6633d8ad4a5b5 job-name=com.yourcompany.SampleSauceTest.loginTest[8]
+SauceOnDemandSessionID=56b39d9969c8481a89be5ef0c06a9e98 job-name=com.yourcompany.SampleSauceTest.loginTest[6]
+SauceOnDemandSessionID=8f56cd1439db4b6c9862cc1a1d2f2962 job-name=com.yourcompany.SampleSauceTest.loginTest[3]
+SauceOnDemandSessionID=87bbbfd3e1904350a7604ad37a42eaed job-name=com.yourcompany.SampleSauceTest.loginTest[1]
+SauceOnDemandSessionID=eedbf88a808147799a9054c3c28fa478 job-name=com.yourcompany.SampleSauceTest.loginTest[2]
+SauceOnDemandSessionID=5e0c2411ac8c4cc99d6eaa1a24b26f7f job-name=com.yourcompany.SampleSauceTest.loginTest[0]
+SauceOnDemandSessionID=3c8fa4b8989e44ff950939df05293de8 job-name=com.yourcompany.SampleSauceTest.loginTest[5]
+SauceOnDemandSessionID=ea8e471b1cd248269c7643a66015ae11 job-name=com.yourcompany.SampleSauceTest.loginTest[4]

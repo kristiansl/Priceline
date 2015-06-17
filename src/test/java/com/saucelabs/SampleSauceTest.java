@@ -26,7 +26,7 @@ import com.saucelabs.common.SauceOnDemandSessionIdProvider;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-//Priceline 
+//Priceline
 /**
  * Demonstrates how to write a JUnit test that runs tests against Sauce Labs using multiple browsers in parallel.
  * <p/>
