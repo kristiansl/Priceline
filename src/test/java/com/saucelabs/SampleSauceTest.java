@@ -119,7 +119,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         browsers.add(new String[]{"Windows XP", "36", "firefox", "Windows 8 Firefox 36"});      
         browsers.add(new String[]{"OSX 10.8", "6", "safari", "Mac 10.8 Safari 6"});
         browsers.add(new String[]{"OSX 10.10", "8", "safari", "Mac 10.10 Safari 8"});
-        browsers.add(new String[]{"OSX 10.10", "43", "chrome", "Mac 10.10 Chrome 42"});
+        browsers.add(new String[]{"OSX 10.10", "38", "firefox", "Mac 10.10 Chrome 42"});
         browsers.add(new String[]{"Windows 8.1", "beta", "chrome", "Windows 8.1 Chrome Beta"}); 
         browsers.add(new String[]{"Windows 7", "9", "internet explorer", "Windows 7 IE 9"});   
         browsers.add(new String[]{"Windows XP", "38", "firefox", "Windows XP Firefox 38"});   
@@ -179,7 +179,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("sopq-hotel-dest")).click();
         driver.findElement(By.id("sopq-hotel-dest")).clear();
         Thread.sleep(5000);
-        driver.findElement(By.id("sopq-hotel-dest")).sendKeys("Las Vegas, NV");
+        driver.findElement(By.id("sopq-hotel-dest")).sendKeys("Las Vegas, NV ");
         Thread.sleep(7000);
         driver.findElement(By.id("hotel-btn-submit-sopq")).click();
     }
