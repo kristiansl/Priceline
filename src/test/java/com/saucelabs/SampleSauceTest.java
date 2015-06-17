@@ -175,7 +175,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         Thread.sleep(7000);
         driver.findElement(By.xpath("//div[@class='xdeals-container']//a[.='Search Express Deals®']")).click();
         driver.findElement(By.id("sopq-hotel-checkout")).click();
-        driver.findElement(By.linkText("20")).click();
+        driver.findElement(By.linkText("22")).click();
         driver.findElement(By.id("sopq-hotel-dest")).click();
         driver.findElement(By.id("sopq-hotel-dest")).clear();
         driver.findElement(By.id("sopq-hotel-dest")).sendKeys("Las Vegas, NV");
