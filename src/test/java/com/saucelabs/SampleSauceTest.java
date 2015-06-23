@@ -43,11 +43,10 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
      * supplied by environment variables or from an external file, use the no-arg {@link SauceOnDemandAuthentication} constructor.
      */
 
-    //public String username = System.getenv("SAUCE_USER_NAME") != null ? System.getenv("SAUCE_USER_NAME") : System.getenv("SAUCE_USERNAME");
-    //public String accesskey = System.getenv("SAUCE_API_KEY") != null ? System.getenv("SAUCE_API_KEY") : System.getenv("SAUCE_ACCESS_KEY");
-    //public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication(username, accesskey);
-    public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication("kristianmeiersl", "69c9ea29-59c8-4b3a-9909-18b1b05343f6");
-
+    public String username = System.getenv("SAUCE_USER_NAME") != null ? System.getenv("SAUCE_USER_NAME") : System.getenv("SAUCE_USERNAME");
+    public String accesskey = System.getenv("SAUCE_API_KEY") != null ? System.getenv("SAUCE_API_KEY") : System.getenv("SAUCE_ACCESS_KEY");
+    public SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication(username, accesskey);
+    
     //public String site_password = System.getenv("SAUCE_PASSWORD_WEBSITE")
     /**
      * JUnit Rule which will mark the Sauce Job as passed/failed when the test succeeds or fails.
@@ -178,6 +177,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
         driver.findElement(By.id("sopq-hotel-dest")).click();
         driver.findElement(By.id("sopq-hotel-dest")).clear();
         driver.findElement(By.id("sopq-hotel-dest")).sendKeys("Las Vegas, NV");
+        Thread.sleep(7000);
         driver.findElement(By.id("hotel-btn-submit-sopq")).click();
     }
    
